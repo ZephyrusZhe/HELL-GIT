@@ -1,0 +1,6 @@
+git add dot 
+git commit 
+
+
+git merge ( in main branch ) 
+git branch 
