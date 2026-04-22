@@ -10,5 +10,19 @@ int main(){
 
     bmi=weight/(height*height);
     cout <<"\nYour BMI = " <<bmi<<endl;
+    cout <<"\nYour weight category is: ";
+    if (bmi<18.5){
+        cout <<"Underweight";
+    }
+    else if (bmi>=18.5 &&bmi<25){
+        cout <<"Normal weight";
+    }
+    else if (bmi>=25 && bmi <30){
+        cout <<"Overweight";
+    }
+    else {
+        cout <<"Obese";
+    };
+    
     return 0;
 }
